@@ -1,0 +1,21 @@
+Decide The DNN architecture
+How to train it
+Get our own data(?)
+Check if changing the attn layers is the best approach
+
+
+Datasets:
+Wikibio-GPT3 
+FELM-Science
+FactCheckGPT
+CoQA
+TriviaQA
+Natural Questions
+
+NQ
+SciQ
+TruthfulQA
+WikQA
+BioGen
+WikiGen
+QAMPAR1
