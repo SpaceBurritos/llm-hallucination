@@ -3,6 +3,34 @@ How to train it
 Get our own data(?)
 Check if changing the attn layers is the best approach
 
+Impact
+
+[This could alse be learned with the rest of the parts or used a more static approach]
+
+[Check which distance is better to understand impact of a next word]
+Mahalanobis Distance
+Perplexity
+Frechet Distance
+Wassertstein Distance
+
+[Find how to embed the words/sentences to find this differences so that different words that have a similar semantic meaning have a similar result]
+
+Truthfulness
+
+[Contrastive Learning]
+We have one correct answer with several incorrect ones
+We could use different attention layers as positive pairs or find a way to augment the attention layers so that they return a similar/same word
+
+Use Contrastive Learning and fused that feature vector with the output of that layer to modified the next attention layer (or something like this)
+Use an appraoch similar to Contrastive Learning combined with VAE
+
+
+Change Direction
+
+
+Last layer
+
+Change the top-p to something with more context, using impact and truthfullnes to choose the next word
 
 Datasets:
 Wikibio-GPT3 
